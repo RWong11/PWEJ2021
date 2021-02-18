@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio/Video</title>
+    <style>
+        video {
+            border-radius: 5px;
+            box-shadow: 10px 10px black;
+            width: 300px;
+            margin-top: 20px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Audio y Video</h1>
+    </header>
+    <section>
+        <!-- controls: Se muestran los controles de audio sobre la pag HTML -->
+        <article>
+            <h2>Audio</h2>
+            <audio controls loop preload="auto">
+                <source src="media/audio/audiohtml5.mp4" type="audio/mp4">
+                <source src="media/audio/audiohtml5.ogg" type="audio/ogg">
+            </audio>
+            <audio controls>
+                <source src="media/audio/musica.mp3" type="audio/mp3"> 
+            </audio>
+        </article>
+        <article>
+            <h2>Video</h2>
+            <video autoplay muted controls>
+                <source src="media/video/Chrome_ImF.mp4" type="video/mp4">
+                <source src="media/video/Chrome_ImF.webm" type="video/webm">
+            </video>
+            <video controls poster="img/ejemplo.png">
+                <source src="media/video/html5.webm" type="video/webm">
+            </video>
+        </article>
+    </section>
+    
+</body>
+</html>
