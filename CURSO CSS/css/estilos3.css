@@ -1,0 +1,21 @@
+h1 {
+    background-color: peru;
+    height: 150px;
+    width: 100px;
+}
+
+h2 {
+    background-color: purple;
+    width: 200px;
+}
+
+a {
+    background-color: red;
+    width: 100px;
+    height: 150px;
+}
+
+span {
+    background-color: blue;
+    height: 500px;
+}
