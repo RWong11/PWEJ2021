@@ -1,0 +1,33 @@
+
+.parrafo1 {
+    /* visibility: hidden; */
+    display: none;
+}
+
+/*RELATIVE*/
+
+.contenedor1, .contenedor2, .contenedor3 {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+}
+
+.contenedor1 {
+    background-color: blueviolet;
+    position: relative;
+    /*top y left tienen prioridad*/
+    top: 50px;
+    left: 50px;
+}
+
+.contenedor2 {
+    background-color: lawngreen;
+    position: relative;
+}
+
+.contenedor3 {
+    background-color: lawngreen;
+    position: absolute;
+    top: 500px;
+}
