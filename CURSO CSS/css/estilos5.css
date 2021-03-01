@@ -1,0 +1,20 @@
+.linea{
+    background-color: yellow;
+    width: 100px;
+    padding-bottom: 50px;
+}
+
+.bloque {
+    background-color: greenyellow;
+    display: inline-block;
+}
+
+span {
+    background-color: grey;
+}
+
+div {
+    display: inline;
+    padding: 10px;
+    background-color: hotpink;
+}

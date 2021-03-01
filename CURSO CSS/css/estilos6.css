@@ -1,0 +1,63 @@
+
+/*
+Pseudoelementos
+
+SE UTILIZAN PARA DARLES ESTILOS A PARTES ESPECIFICAS DE UN ELEMENTO
+
+::first-letter - ELEMENTOS EN BLOQUE
+
+::first-line - ELEMENTOS EN BLOQUE
+
+::selection
+
+::before
+
+::after
+
+*/
+
+.titulo::first-letter {
+    color: hotpink;
+    font-size: 60px;
+}
+
+.linea::first-letter {
+    color: hotpink;
+    font-size: 60px;
+}
+
+.blue {
+    color: blue;
+}
+
+.texto::first-line {
+    color: blue;
+}
+
+.texto::selection {
+    background-color: blueviolet;
+    color: white;
+}
+
+.dinero::before {
+    content: '$';
+}
+
+.dinero::after {
+    content: '.00';
+}
+
+.ejemplo::after, .ejemplo::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+}
+
+
+
+
+
+
+
