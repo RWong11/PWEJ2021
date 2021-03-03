@@ -72,7 +72,7 @@ Pseudoclases
 
 
 /*
-Estado
+Pseudoclases - Estado
 
 :enabled
 :disabled
@@ -118,9 +118,76 @@ Estado
     background-color: blue;  
   }
 
+/* 
+    Pseudoclases - Estructurales
 
+    :root 
 
+    :empty - elementos vacios
 
+    CHILD -
+
+    :first-child
+    :last-child
+
+    :nth-child()
+    :nth-last-child()
+    :only-child
+
+    valores: 
+    odd - impares
+    even - pares 
+    numeros enteros
+    ecuaciones ( 1n, 2n, 3n+1, n + 2 ...)
+
+    type: 
+
+    :first-of-type
+    :last-of-type
+    :nth-of-type()
+*/
+
+/* .p {
+    background-color: aqua;
+    padding: 10px;
+}
+
+.p:empty {
+    all: unset;
+} */
+
+/* .p:first-child {
+    background-color: aqua;
+}
+
+.p:last-child {
+    background-color: palevioletred;
+} */
+
+/* .p:nth-child(n+3){
+    background-color: peru;
+} */
+
+/* .p:nth-last-child(even){
+    background-color: green;
+} */
+
+/* .p:only-child{
+    background-color: greenyellow;
+} */
+
+/* .p:first-child {
+    background-color: indigo;
+}
+ */
+
+.p:nth-of-type(4){
+    background-color: hotpink;
+}
+
+.p:not(.p1){
+    background-color: greenyellow;
+}
 
 
 
