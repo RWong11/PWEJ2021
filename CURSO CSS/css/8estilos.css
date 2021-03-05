@@ -1,0 +1,39 @@
+/*
+
+Tipos: lineal y radial
+
+2 colores: 0% 100%
+3 colores: 0% 50% 100%
+
+Son valores de background-image
+
+Valores: 
+linear-gradient([direccion], color1, color2, ....)
+background-image: linear-gradient(green, blue)
+
+direcciones: [to] top, right, bottom, left, top left, top right, bottom left, bottom right 
+la direcciones pueden ser grados
+
+Inicios de color: medidas en px, %, em.
+
+También podemos declarar el fin
+
+
+
+Valores:
+
+radial-gradient([shape], color1, color2)
+
+formas: circle y ellipse
+
+origen: [at] top, tight, left, bottom, center
+*/
+
+
+
+.caja {
+    width: 250px;
+    height: 250px;
+    /* background-image: linear-gradient(green 30%, blue 50% 80%, yellow); */
+    background-image: repeating-linear-gradient(45deg, red, blue, red);
+}
