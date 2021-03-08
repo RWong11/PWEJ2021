@@ -1,0 +1,39 @@
+body {
+    margin: 0 auto;
+    max-width: 1024px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #d0e1e6;
+    position: relative;
+}
+
+header nav {
+    background-color: #026fc3;
+}
+
+header nav ul {
+    display: inline-block;
+}
+
+header nav ul li{
+    display: inline-block;
+    color: #FFF;
+    font-weight: 700;
+    margin: 0 30px 0 0;
+}
+
+header nav form {
+    display: inline-block;
+    float: right;
+    margin: 15px 20px 0 0;
+}
+
+#logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
