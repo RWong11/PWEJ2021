@@ -11,11 +11,17 @@ header {
 }
 
 header nav {
+    width: 99%;
+    height: 30px;
+    border-radius: 3px;
+    margin: 0 auto;
     background-color: #026fc3;
 }
 
 header nav ul {
     display: inline-block;
+    margin: 0;
+    padding: 0;
 }
 
 header nav ul li{
@@ -26,9 +32,7 @@ header nav ul li{
 }
 
 header nav form {
-    display: inline-block;
     float: right;
-    margin: 15px 20px 0 0;
 }
 
 #logo {
@@ -37,3 +41,50 @@ header nav form {
     left: 0;
 }
 
+.buscador {
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+
+.boton-buscar {
+    background-color: #66ae5a;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 700;
+    padding: 4px 10px;
+}
+
+.secc1 article {
+    text-align: center;
+}
+
+.secc1 article img {
+    width: 98%;
+    border: 5px solid #ced1cf;
+}
+
+.secc2 article {
+    width: 32%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.secc2 h1 {
+    font-size: 60px;
+    margin: 10px 0 0;
+    color: #323639;
+}
+
+.secc2 h2 {
+    font-size: 40px;
+    margin: 10px 0 0;
+    color: #323639;
+}
+
+.ver-mas{
+    color: blue;
+    border-radius: 3px;
+    padding: 4px 10px;
+    border-color: #d9d9d9;    ;
+}
